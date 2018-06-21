@@ -1,0 +1,43 @@
+﻿@{
+    ViewBag.Title = "Контакти";
+}
+<div class="container ot">
+    <h3 id="contacts">Як нас знайти?</h3>
+    <div id="map" onload="initMap()">
+        <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRD7GrPTzjbjHZU-ODM8S8LYtj9qI8pt4&language=uk&region=UK&callback=initMap"></script>
+    </div>
+
+        <div class="row">
+            <div class="col-12 col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                <div class="ml-4  mt-4">
+                    <h4>Контактна інформація:</h4>
+                    <p>
+                        <br />
+                        <img src="~/assets/img/phone.png" alt="phone" width="19" height="19" />
+                        <span style="font-family: georgia, palatino, serif;">+38 (0362) 26-94-62</span><br />
+                        <img src="~/assets/img/mail.png" alt="mail" width="24" height="24" />
+                        <span style="font-family: 'comic sans ms', sans-serif;">м. Рівне, вулиця Дворецька, 41</span><br />
+                    <br/>    
+                    <strong>Пастори:</strong> <br />
+                        <span style="font-family: 'trebuchet ms', geneva, sans-serif;">Нестерук Володимир Васильович</span>
+                        <br />
+                        <span style="font-family: 'trebuchet ms', geneva, sans-serif;">Назарчук Ростислав Олександрович</span>
+                    </p><br />
+                    <h5><strong>Зібрання проходять:</strong></h5>
+                    <strong>Неділя</strong> o <strong>10.00 </strong>та o <strong>17.00</strong><br />
+                    <strong>Вівторок</strong> о <strong>19.00.</strong>
+                </div>
+            </div>
+            <div class="col-12 col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                <div class="w-75 mt-4">
+                    <!-- Form contact -->
+                    Тут буде форма напиши нам...
+                    <!-- Form contact -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
