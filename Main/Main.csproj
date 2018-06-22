@@ -151,11 +151,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="assets\img\404.png" />
-    <Content Include="assets\img\Logo-300x300.png" />
-    <Content Include="assets\img\mail.png" />
-    <Content Include="assets\img\MG_4793.jpg" />
-    <Content Include="assets\img\phone.png" />
+    <Content Include="Content\img\404.png" />
+    <Content Include="Content\img\Logo-300x300.png" />
+    <Content Include="Content\img\mail.png" />
+    <Content Include="Content\img\MG_4793.jpg" />
+    <Content Include="Content\img\phone.png" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-reboot.css" />
